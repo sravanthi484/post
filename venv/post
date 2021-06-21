@@ -1,0 +1,11 @@
+import requests
+r=requests.get("http://127.0.0.1:5000/centers")
+print(r.text)
+
+response=requests.get("http://127.0.0.1:5000/centers")
+print(response.url)
+print(response.status_code)
+
+payload={"center_id":321456,"district_name":"telangana"}
+p=requests.post("https://httpbin.org/post",data=payload)
+print(p.text)

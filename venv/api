@@ -10,7 +10,7 @@ centers = [{"center_id":183870,"name":"Villivakkam III UPHC","address":"UPHC Man
 def get () :
     return jsonify({'centers':centers})
 
-@pp.route("/centers/<int
 
 if __name__ == "__main__":
     app.run(debug=True)
+
