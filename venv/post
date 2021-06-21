@@ -6,6 +6,4 @@ response=requests.get("http://127.0.0.1:5000/centers")
 print(response.url)
 print(response.status_code)
 
-payload={"center_id":321456,"district_name":"telangana"}
-p=requests.post("https://httpbin.org/post",data=payload)
-print(p.text)
+payload=ck_name":"Anna Nagar","pincode":600049,"lat":13,"long":80,"from":"09:00:00","to":"18:00:00","fee_type":"Free","sessions":[{"session_id":"06d89cdc-530a-4f93-a9bf-0ea3e9c6379b","date":"16-06-2021","available_capacity":0,"min_age_limit":45,"vaccine":"COVISHIELD","slots":["09:00AM-11:00AM","11:00AM-01:00PM","01:00PM-03:00PM","03:00PM-06:00PM"],"available_capacity_dose1":0,"available_capacity_dose2":0},{"session_id":"aaffbc90-6728-44e5-9367-30a7cb0f9fce","date":"16-06-2021","available_capacity":0,"min_age_limit":45,"vaccine":"COVAXIN","slots":["09:00AM-11:00AM","11:00AM-01:00PM","01:00PM-03:00PM","03:00PM-06:00PM"],"available_capacity_dose1":0,"available_capacity_dose2":0}]},{"center_id":1565
